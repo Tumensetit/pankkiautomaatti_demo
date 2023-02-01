@@ -1,0 +1,34 @@
+Ohjelman tarkoituksen on olla eräänlainen versio toimivasta pankkiautomaatista, jossa voi tarkistaa saldon ja nostaa rahaa.
+Sovelluksessa on myös ominaisuus jolla tarkastetaan käyttäjän tilinumero sekä pinkoodi. Ohjelmassa on myös tilaa tehdä sille
+toiminnalliset tapahtumat-, sehä puheaika-toiminnot.
+
+Ohjelma toimiin main funktion kautta joka on automaatin peruskallio. Siellä tarkastetaan syötetyt tiedot kuten tilinumero ja
+pinkoodi ja päästetään käyttäjä päävalikkoon. Sieltä kutsutaan muut pienemmät funktiot jotka tekevät työnsä ja palauttavat käyttäjän
+takaisin päävalikkoon. Eli se on vähän niinkuin sen sydän. HaeSaldo funktio on tehty sitä varten että noudetaan halutusta tiedostosta
+käyttäjän saldo. Saldofunktio taas on päävalikon yksi toiminto ja sen kutsuttaessa kertoo käyttäjälle oman saldonsa. Nosto funktio
+taas kutsuttaessa antaa käyttäjän nostaa rahaa seteleinä. se antaa käyttäjälle mahdollisuuden valita valmiiksi valittu summa, tai
+käyttäjä saa itse valita sen, jonka jälkeen rahat annetaan ja palataan päävalikkoon.
+
+KÄYTTÖOHJEET
+1. kysyttäessä tilinumeroa, syötä tiedostopolku .acc tiedostoon joka on nimetty vastaavasti (numerosarja).acc. Itsellä oli 12345.acc
+(Tiedoston pitää sisältää ensimmäisellä rivillä nelinumeroinen numerosarja esim 1122 ja toisella rivillä haluttu saldo numeroina.)
+Jätä lopusta pois .acc sillä ohjelma lisää sen automaattisesti (esim D:\\visual\\12345)
+
+2. Kysyttäessä tunnuslukua, syötä tiedostossa oleva tunnusluku (ohjelma myös kertoo sen)
+
+3. päävalikossa valitse haluttu toiminto syöttämällä yksi numero väliltä 1-5 halutun toiminnon mukaan.
+
+4. käyttäessä nostoa, voit valita yhden valmisvaihtoehdon tai sitten valita vapaasti nostettavan summan. MUISTA KÄYTTÄÄ NUMEROITA 1-5.
+vain yksi numero valitessa toimintoa!
+
+5. jos valitsit "valitse summa" toiminnon, niin syötä nollaan päättyvä luku joka on suurempi tai yhtä suuri kuin 40.
+Numeron ei myöskään kannata ylittää tilin saldoa.
+
+6. Jos haluat lopettaa ohjelman käytön syötä päävalikossa 5.
+
+käyttöohjeet loppuu
+
+Kotitehtävä oli mielenkiintoinen ja ensimmäinen isompi projekti itselle. Vaikeuksia ei ollut niin paljon mitä odotin, mutta yksi
+mikä jäi mieleen oli arviointimatriisien käyttöönotto kesken kurssin. kotitehtävä neljän kohdalla kun itse oli tehnyt ohjelman
+pelkällä sana ohjeella, tuli hieman epäreilu olo kun sitten julkistettiin se arviointi matriisi jossa ohjeet oli listattu paljon selvemmin
+ja sitä käytettiin arviointiin. Muuten projekti oli mielestäni onnistunut.
