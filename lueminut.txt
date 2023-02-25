@@ -27,8 +27,3 @@ Numeron ei myöskään kannata ylittää tilin saldoa.
 6. Jos haluat lopettaa ohjelman käytön syötä päävalikossa 5.
 
 käyttöohjeet loppuu
-
-Kotitehtävä oli mielenkiintoinen ja ensimmäinen isompi projekti itselle. Vaikeuksia ei ollut niin paljon mitä odotin, mutta yksi
-mikä jäi mieleen oli arviointimatriisien käyttöönotto kesken kurssin. kotitehtävä neljän kohdalla kun itse oli tehnyt ohjelman
-pelkällä sana ohjeella, tuli hieman epäreilu olo kun sitten julkistettiin se arviointi matriisi jossa ohjeet oli listattu paljon selvemmin
-ja sitä käytettiin arviointiin. Muuten projekti oli mielestäni onnistunut.
